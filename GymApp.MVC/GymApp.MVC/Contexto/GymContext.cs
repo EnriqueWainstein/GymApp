@@ -8,10 +8,10 @@ namespace GymApp.MVC.Data
         public GymContext(DbContextOptions<GymContext> options) : base(options)
         {
         }
-
+        public DbSet<PlanRutina> planes { get; set; }
         public DbSet<Miembro> Miembros { get; set; }
         public DbSet<Clase> Clases { get; set; }
-        public DbSet<Equipo> Equipos { get; set; }
+        
         public DbSet<Membresia> Membresias { get; set; }
         public DbSet<Entrenador> Entrenadores { get; set; }
 

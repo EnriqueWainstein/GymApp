@@ -7,6 +7,7 @@
         public DateTime Horario { get; set; }
         public int EntrenadorId { get; set; }
         public Entrenador Entrenador { get; set; } = null!;
+        public String Descripcion { get; set; } = null!;
         public List<Miembro> MiembrosInscritos { get; set; } = new List<Miembro>();
     
     public void InscribirMiembro(Miembro miembro)

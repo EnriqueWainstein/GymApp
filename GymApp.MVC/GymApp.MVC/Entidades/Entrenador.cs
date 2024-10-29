@@ -1,9 +1,10 @@
-﻿namespace GymApp.MVC.Entidades
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace GymApp.MVC.Entidades
 {
-    public class Entrenador
+    public class Entrenador: Persona
     {
-        public int Id { get; set; }
-        public string Nombre { get; set; } = string.Empty;
+        [Required]
         public string Especialidad { get; set; } = string.Empty;
         public List<Clase> ClasesAsignadas { get; set; } = new List<Clase>();
 

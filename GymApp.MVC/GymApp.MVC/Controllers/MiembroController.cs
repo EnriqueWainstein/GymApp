@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace GymApp.MVC.Controllers
 {
-    public class ControladorMiembro : Controller
+    public class MiembroController : Controller
     {
         private readonly GymContext _context;
 
-        public ControladorMiembro(GymContext context)
+        public MiembroController(GymContext context)
         {
             _context = context;
         }

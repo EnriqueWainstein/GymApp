@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GymApp.MVC.Controllers
 {
-    public class ControladorEntrenador : Controller
+    public class EntrenadorController : Controller
     {
         // GET: ControladorEntrenador
         public ActionResult Index()

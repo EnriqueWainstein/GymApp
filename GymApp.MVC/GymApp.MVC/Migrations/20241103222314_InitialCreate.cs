@@ -162,7 +162,6 @@ namespace GymApp.MVC.Migrations
                 column: "MiembroId");
         }
 
-        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
